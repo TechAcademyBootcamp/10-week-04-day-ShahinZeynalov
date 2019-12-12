@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.div_title{
+    text-align: center;
+    padding: 10px;
+    border-left: 5px solid #3f3f3f;
+    color: red;
+    width: 600px;
+    margin:10px auto;
+}
+
+#team{
+    position: absolute;
+    background-color:#f2f2f2;
+    top:50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%)
+}
+
+section{
+    padding:50px;
+
+}
+
+.member{
+    position: relative;
+
+}
+
+.overlay{
+    background-color:rgba(231,76,60,.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+
+}
+
+
+.member:hover .overlay{
+    height: 100%;
+    opacity: 1;
+    transition: all .2s linear;
+
+}
+
+.member-info{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+
+
+}
+
+.social-list{
+    padding:0;
+
+}
+
+.social-list li{
+    display: inline-block;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.social-list a{
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+
+}
+
+.social-list li:nth-child(1) a:hover{
+    color: #3b5998;
+    border-color: #3b5998;
+
+}
+
+.social-list li:nth-child(2) a:hover{
+    color: #00aced;
+    border-color: #00aced;
+
+}
+
+.social-list li:nth-child(3) a:hover{
+    color: #bd081b;
+    border-color: #bd081b;
+
+}
+#members > div.owl-nav > button.owl-prev,
+#members > div.owl-nav > button.owl-next{
+    color: #e74c3c;
+    font-size: 36px;
+    background: none;
+}
+
+h2{
+    padding-left: 20px;
+    border-left: 3px solid red;
+}
+
+.paragraph{
+    margin-left: 23px;
+    margin-top: 20px;
+
+
+}
